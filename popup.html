@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Auto Fill Quy chế</title>
+  <style>
+    body { width: 300px; font-family: Segoe UI, Arial, sans-serif; padding: 16px; margin: 0; font-size: 13px; }
+    h3 { margin: 0 0 12px; font-size: 15px; text-align: center; }
+    p { margin: 10px 0 6px; line-height: 1.5; }
+    .link-box { border: 1px solid #0f6cbd; border-radius: 6px; padding: 8px 10px; background: #eef5fc; }
+    .link-box a { color: #0f6cbd; font-weight: 600; text-decoration: none; }
+    .link-box a:hover { text-decoration: underline; }
+    button { width: 100%; padding: 10px; font-size: 14px; border: 0; border-radius: 6px;
+             background: #0f6cbd; color: #fff; cursor: pointer; }
+    button:hover { background: #115ea3; }
+    button:disabled { opacity: .6; cursor: default; }
+    #status { margin-top: 10px; line-height: 1.5; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h3>Auto Fill: Quy chế</h3>
+
+  <p><strong>Bước 1:</strong> Bấm vào link để mở bài thi (mở ở tab mới):</p>
+  <div class="link-box">
+    Quy chế:
+    <a href="https://forms.cloud.microsoft/pages/responsepage.aspx?id=n7jxBugHT0a0COwbRXA_MYHyGUaEfhNNu2j97QvQaYlUOUxLS1VGWEJOVURPM0pUWTRJWks3S0pBRy4u&route=shorturl"
+       target="_blank" rel="noopener noreferrer">Link bài thi</a>
+  </div>
+
+  <p><strong>Bước 2:</strong> Khi form đã tải xong, mở lại extension và bấm:</p>
+  <button id="fill">Điền đáp án</button>
+
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
