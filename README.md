@@ -18,6 +18,6 @@ Tiện ích tự động điền đáp án bài thi Quy chế trên Microsoft Fo
 - Chọn đến thư mục bạn vừa giải nén ở Bước 1.
 
 ### 3. Cách sử dụng
-- Mở trang bài kiểm tra Microsoft Forms.
 - Bấm vào biểu tượng tiện ích **Auto Fill Quy chế** trên thanh công cụ trình duyệt.
+- Mở trang bài kiểm tra Microsoft Forms.
 - Bấm nút **Điền đáp án** và chờ tiện ích tự động chọn đúng 200/200 câu.
